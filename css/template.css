@@ -215,9 +215,9 @@ img.img-full-width {
 		-ms-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;
 	background: rgba(20,144,69,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(top, rgba(20,144,69,0.9), rgba(45, 225, 252, 0.9));
-	background: -o-linear-gradient(top, rgba(20,144,69,0.9), rgba(45, 225, 252, 0.9));
-	background: linear-gradient(to bottom, rgba(20,144,69,129,0.9), rgba(45, 225, 252, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(top, rgba(33,58,80,0.9), rgba(45, 225, 252, 0.9));
+	background: -o-linear-gradient(top, rgba(33,58,80,0.9), rgba(45, 225, 252, 0.9));
+	background: linear-gradient(to bottom, rgba(33,58,80,129,0.9), rgba(45, 225, 252, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .nino-hoverEffect .item:hover .overlay {
 	left: -10px;
@@ -248,7 +248,7 @@ img.img-full-width {
 /* =============== LAYOUT - HEADER AREA =============== */
 #nino-header {
 	position: relative;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color:#213a50;
 }
 #nino-header:after {
@@ -301,7 +301,7 @@ img.img-full-width {
 /* =============== LAYOUT - HEADER AREA Team=============== */
 #nino-headerTeam {
 	position: relative;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background: url(../images/banner/jumping.jpg) no-repeat center center / cover;
 }
 #nino-headerTeam:after {
@@ -541,7 +541,7 @@ section {
 #nino-counting {
 	padding: 0;
 	background: #149045;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
@@ -594,7 +594,7 @@ section {
 	font-size: 18px;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 	
 #nino-uniqueDesign .nino-subscription-field .input-group input,
@@ -611,7 +611,7 @@ section {
 #nino-uniqueDesign .nino-subscription-field .input-group .btn {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	background: #2de1fc;
 	border: none;
@@ -661,7 +661,7 @@ section {
 	font-size:25px;
 	text-align:left;
 	font-weight:600;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	justify-content: center;
 	align-items: center;
 	margin-right: auto;
@@ -673,7 +673,7 @@ section {
 	font-size:18px;
 	text-align:left;
 	font-weight:400;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	justify-content: center;
 	align-items: center;
 }
@@ -682,7 +682,7 @@ section {
 	font-size:25px;
 	text-align:right;
 	font-weight:600;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	justify-content: center;
 	align-items: center;
 	margin-left: auto;
@@ -694,7 +694,7 @@ section {
 	font-size:18px;
 	text-align:right;
 	font-weight:400;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	justify-content: center;
 	align-items: center;
 }
@@ -715,7 +715,7 @@ section {
 		font-size:14px;
 		text-align:left;
 		font-weight:400;
-		font-family: 'Cabin', sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 }
 
@@ -736,7 +736,7 @@ section {
 		font-size:13px;
 		text-align:left;
 		font-weight:400;
-		font-family: 'Cabin', sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 }
 
@@ -757,7 +757,7 @@ section {
 		font-size:14px;
 		text-align:left;
 		font-weight:400;
-		font-family: 'Cabin', sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 }
 
@@ -778,7 +778,7 @@ section {
 		font-size:18px;
 		text-align:left;
 		font-weight:400;
-		font-family: 'Cabin', sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 }
 
@@ -799,7 +799,7 @@ section {
 		font-size:18px;
 		text-align:left;
 		font-weight:400;
-		font-family: 'Cabin', sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 }
 /* =============== SECTION WHAT WE DO =============== */
@@ -821,7 +821,7 @@ section {
 	font-size:25px;
 	color:#000;
 	font-weight: 500;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 
 }
@@ -957,18 +957,23 @@ section {
 	font-size: 12px;
 }
 /* =============== SECTION OUR TEAM =============== */
+#nino-ourTeam {
+	padding-bottom: 0;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
 #nino-ourTeam .content .nino-icon {
 	display: inline-block;
 	font-size: 25px;
-	color: #149045;
-	background: #2de1fc;
+	color: #6C5B7B;
+	background: #F67280;
 	padding: 10px;
 	margin: 0 -1px;
 	line-height: 100%;
 }
 #nino-ourTeam .content .nino-icon:hover {
 	color: #fff;
-	background: #149045;
+	background: #F88195;
 }
 #nino-ourTeam .info {
 	margin-top: 35px;
@@ -981,6 +986,7 @@ section {
 #nino-ourTeam .regency {
 	font-style: italic;
 }
+
 /* =============== SECTION HAPPY CLIENT =============== */
 #nino-happyClient {
 	background: url(../images/happy-client/bg-happy-client.jpg) no-repeat center center / cover;
@@ -1030,7 +1036,7 @@ section {
 	font-size: 28px;
 	line-height: 100%;
 	font-weight: 700;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 #nino-latestBlog article .date .text {
 	display: block;
@@ -1126,7 +1132,7 @@ footer .column {
 footer .footerLogo a {
 	color: #ccc;
 	font-size: 40px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	display: inline-block;
 	margin-bottom: 20px;

@@ -48,8 +48,8 @@
 							<ul class="nav navbar-nav">
 								<li  onclick="goTO('./index.html')"><a href="">Home </a></li>
 								<li onclick="goTO('./dash.html')"><a href="">Dashboard</a></li>
-								<li class="active" onclick="goTO('./help.html')"><a href="#nino-header">Help<span class="sr-only">(current)</span></a></li>
-								<li onclick="goTO('./help.html')"><a href=""><img src="images/eng_flag.png" style="height:15px;"></a></li>
+								<li class="active" onclick="goTO('./help.html')"><a href="#nino-header">Ajuda<span class="sr-only">(current)</span></a></li>
+								<li onclick="goTO('./help-pt.html')"><a href=""><img src="images/pt_flag.png" style="height:15px;"></a></li>
 								<script>
 									function goTO(link){
 										window.open(link, "_self");
@@ -64,13 +64,13 @@
 	</header><!--/#header-->
 
 <section id="nino-Data">
-	<h2 class="subHeading" style=" color:white; margin-left:30%; margin-bottom:20px">What does each colour mean?</h2>
+	<h2 class="subHeading" style=" color:white; margin-left:30%; margin-bottom:20px">O que significam as cores?</h2>
 	<div class="row">
 		<div class="column" style="margin-left:40%" >
 			<p style="align-items: right;"><span class="alert"></span></p>
 		</div>
 		<div class="column" style="margin-left:-50%">
-			<p>User is well.</p>
+			<p>Utilizador está bem.</p>
 		</div>
 	</div>
 	<div class="row">
@@ -78,7 +78,7 @@
 			<p style="align-items: right;"><span class="alert" style="background-color: yellow"></span></p>
 		</div>
 		<div class="column" style="margin-left:-50%">
-			<p>User is stressed.</p>
+			<p>Utilizador está stressado.</p>
 		</div>
 	</div>
 	<div class="row">
@@ -86,7 +86,7 @@
 			<p style="align-items: right;"><span class="alert" style="background-color: red"></span></p>
 		</div>
 		<div class="column" style="margin-left:-50%">
-			<p>User is in danger.</p>
+			<p>Utilizador está em perigo.</p>
 		</div>
 	</div>
 
@@ -95,7 +95,7 @@
 			<p style="align-items: right;"><span class="alert" style="background-color: grey"></span></p>
 		</div>
 		<div class="column" style="margin-left:-50%">
-			<p>User is inactive.</p>
+			<p>Utilizador está inativo.</p>
 		</div>
 	</div>
 
@@ -103,19 +103,19 @@
 <section id="nino-contact">
 	<div class="container">  
 		<form id="contact" action="" method="post">
-		  <h3>Quick Contact</h3>
+		  <h3>Contacto Rápido</h3>
 		  <h4>Contact us today, and get reply as soon as possible!</h4>
 		  <fieldset>
-			<input placeholder="Your name" type="text" tabindex="1" required autofocus>
+			<input placeholder="Nome..." type="text" tabindex="1" required autofocus>
 		  </fieldset>
 		  <fieldset>
-			<input placeholder="Your Email Address" type="email" tabindex="2" required>
+			<input placeholder="Endereço de Email..." type="email" tabindex="2" required>
 		  </fieldset>
 		  <fieldset>
-			<textarea placeholder="Type your Message Here...." tabindex="3" required></textarea>
+			<textarea placeholder="Escreve a tua mensagem aqui...." tabindex="3" required></textarea>
 		  </fieldset>
 		  <fieldset>
-			<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+			<button name="submit" type="submit" id="contact-submit" data-submit="...A enviar">Submit</button>
 		  </fieldset>
 		</form>
 	   

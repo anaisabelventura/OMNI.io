@@ -48,8 +48,8 @@
 							<ul class="nav navbar-nav">
 								<li onclick="goTO('./index.html')"><a href="">Home </a></li>
 								<li class="active" onclick="goTO('./dash.html')"><a href="#nino-header">Dashboard<span class="sr-only">(current)</span></a></li>
-								<li onclick="goTO('./help.html')"><a href="">Help</a></li>
-								<li onclick="goTO('./dash-pt.html')"><a href=""><img src="images/pt_flag.png" style="height:15px;"></a></li>
+								<li onclick="goTO('./help.html')"><a href="">Ajuda</a></li>
+								<li onclick="goTO('./dash.html')"><a href=""><img src="images/pt_flag.png" style="height:15px;"></a></li>
 								<script>
 									function goTO(link){
 										window.open(link, "_self");
@@ -66,9 +66,9 @@
 		  <ul id="v-menu">
 			<li><a href=""><i class="fas fa-home ico"></i><i class="text"> Dashboard </i></a></li>
 			<li><a href="https://www.google.com/maps/d/drive?state=%7B%22ids%22%3A%5B%221NzfGdb8DOWljM-dCXKLx2gmn7ht74MrX%22%5D%2C%22action%22%3A%22open%22%2C%22userId%22%3A%22102153953787578222291%22%7D&usp=sharing"><i class="fas fa-globe ico"></i><i class="text">Location</i></a></li>
-			<li><a href="#nino-Person"><i class="fas fa-users ico"></i><i class="text">Active Officers</i></a></li>
-			<li><a href="#nino-EmgSer"><i class="fas fa-ambulance ico"></i><i class="text">Emergency Services</i></a></li>
-			<li><a href="./help.html"><i class="fas fa-info-circle ico"></i><i class="text">Guideline</i></a></li>
+			<li><a href="#nino-Person"><i class="fas fa-users ico"></i><i class="text">Agentes Ativos</i></a></li>
+			<li><a href="#nino-EmgSer"><i class="fas fa-ambulance ico"></i><i class="text">Serviços de Emergência</i></a></li>
+			<li><a href="./help.html"><i class="fas fa-info-circle ico"></i><i class="text">Ajuda</i></a></li>
 		  </ul>
 	</section>
 
@@ -77,19 +77,19 @@
 			<div class="row">
 				<div class="column">
 					<div class="row">
-						<div class="columni"><p class="content">Total <br>Officers</p></div>
+						<div class="columni"><p class="content">Total <br>de Agentes</p></div>
 						<div class="columni"><p class="number">300</p></div>
 					</div>
 				</div>
 				<div class="column">
 					<div class="row">
-						<div class="columni"><p class="content">Active <br>Officers</p></div>
+						<div class="columni"><p class="content">Agentes <br>Ativos</p></div>
 						<div class="columni"><p class="number">4</p></div>
 					</div>
 				</div>
 				<div class="column">
 					<div class="row">
-						<div class="columni"><p class="content">Red <br>Alerts</p></div>
+						<div class="columni"><p class="content">Alertas <br>Vermelhos</p></div>
 						<div class="columni"><p class="number">1</p></div>
 					</div>
 				</div>
@@ -100,7 +100,7 @@
 		<div class="row">
 			<div class="column">
 				<div class="row" style="margin-top:15%; margin-left:20%; align-items:left">
-					<button onclick="myFunction()">Call <br>Emergency Services</button>
+					<button onclick="myFunction()">Ligar para os <br>Serviços de Emergência</button>
 					<script>
 					function myFunction() {
 					alert("User Ana Ventura is in distress. Send help to her location");
@@ -129,14 +129,14 @@
 	</section>
 
 	<section id="nino-EmgSer">
-		<h2 class="nino-Heading" style="margin-left:40%;color:#fff;">Nearby Emergency Services</h2>
+		<h2 class="nino-Heading" style="margin-left:40%;color:#fff;">Serviços de Emergência Perto</h2>
 		<section id="nino-map" style="align-items:center; margin-left:30%">
 			<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1HyLnONXLjGkNsE3f4PrU9DBkakxBDqVq" width="640" height="480"></iframe>
 		</section>
 	</section>
 
 	<section id="nino-Person">
-		<h2 class="nino-Heading" style="margin-left:45%;color:#fff;">Active Users</h2>
+		<h2 class="nino-Heading" style="margin-left:45%;color:#fff;">Utilizadores Ativos</h2>
 		<div class="container">
 			<div class="row" >
 					<p class="name" style="align-items:center;margin-left:45%"><span class=" alert" style=" background-color:red"></span>Ana Ventura</p>
@@ -171,18 +171,18 @@
         <div class="container">
 			<div class="row" >
 				<div class="column">
-				<p>Developed by Mind8 during CityHack2020.</p>
+				<p>Desenvolvido por Mind8 durante CityHack2020.</p>
 				</div>
 				<div class="column" >
 					<img src="images/ico/logo_58.png" style="height:58px;width:58px;margin-bottom:20px">
 				</div>
 			</div>
 		</div>
-		<div class="nino-copyright"><br>All Rights Reserved.</div>
+		<div class="nino-copyright"><br>Todos os direitos reservados.</div>
     </footer><!--/#footer-->
 <!-- Scroll to top
     ================================================== -->
-	<a href="#" id="nino-scrollToTop">Go to Top</a>
+	<a href="#" id="nino-scrollToTop">Vai para o Inicio</a>
 	
 	<!-- javascript -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>	
