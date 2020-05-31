@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<title>OMNI</title>
+	
+	<!-- favicon -->
+    <link rel="shortcut icon" href="images/ico/logot.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/logo_115.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/logo_115.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/logo_75.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/logo_58.png">
+	
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
+	<link rel="stylesheet" type="text/css" href="css/unslider.css" />
+	<link rel="stylesheet" type="text/css" href="css/template.css" />
+	
+</head>
+
+	<!-- Header
+    ================================================== -->
+	<header id="nino-header">
+		<div id="nino-headerInner">					
+			<nav id="nino-navbar" class="navbar navbar-default" role="navigation">
+				<div class="container">
+
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nino-navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="./index.html"></a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="nino-menuItem pull-right">
+						<div class="collapse navbar-collapse pull-left" id="nino-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li class="active" onclick="goTO('./index.html')"><a href="#nino-header">Home <span class="sr-only">(current)</span></a></li>
+								<li onclick="goTO('./dash.html')"><a href="">Dashboard</a></li>
+								<li onclick="goTO('./help.html')"><a href="">Help</a></li>
+								<script>
+									function goTO(link){
+										window.open(link, "_self");
+									}
+								</script>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div>
+				</div><!-- /.container-fluid -->
+			</nav>
+			<section id="nino-logo">
+				<div class="row">
+					<img style=" margin-left:45%;" src="images/banner/logot.png">
+				</div>
+				<div class="row">
+					<h1 style="max-height:200px; margin-left:40%;font-size:100px; font-weight:700;color:#fff">OMNI</h1>
+				</div>
+			</section>
+		</div>
+	</header><!--/#header-->
+	
+	<section id="nino-brand">
+		<div class="container">
+    		<div class="verticalCenter fw" layout="row">
+				<div class="col-md-3"><a href=""><img src="images/logosinstitucionais/ipcb.jpg" alt="" style="height:90px"></a></div>
+    			<div class="col-md-3"><a href=""><img src="images/logosinstitucionais/image.png" alt="" style="height:80px"></a></div>
+    			<div class="col-md-3"><a href=""><img src="images/logosinstitucionais/hack-for-good.png" alt="" style="height:80px"></a></div>
+				<div class="col-md-3"><a href=""><img src="images/logosinstitucionais/logoFundacaoCG.png" alt="" style="height:80px"></a></div>
+    		</div>
+    	</div>
+	</section>
+	<section id="nino-whatWeDo">
+		<div class="container">
+		<h2 class="nino-sectionHeading">
+				Safe in a Heartbeat!
+			</h2>
+			<div class="sectionContent">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="text-center">
+							<img style="max-height:250px" src="images/pulseira.png">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel-body">
+							<p>With the <b>Brace Tech</b>, you can monitor user's vitals and locations in real-time, allowing quick response to worker distress.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="nino-whatWeDo">
+		<div class="container">
+		<h2 class="nino-sectionHeading">
+				OMNI System
+			</h2>
+			<div class="sectionContent">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="panel-body" style="font-size:20px">
+							<p>The Omni software is an IoT software that can track a user’s vitals and location then notifies a supervisor when a user is experiencing distress allowing for quicker response.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="text-center">
+							<img style="max-height:250px" src="images/omni.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!--Info Geral-->
+	<section id="nino-InfoB">
+		<div class="container">
+			<div class="row">
+				<div class="column" >
+					<h4 class="QuestionL" style="padding-top:10%">Why?</h4>
+				</div>
+				<div class="column">
+					<p class="textInfoR" style="padding-top:10%">Every day, 14 workers die while on duty, with more suffering injuries.</p>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="column">
+					<p class="textInfoL" style="padding-top:10%">The Omnis is a combination of state of the art sensors and IoT software that can track a user’s vitals and location and transmit that data in real-time back to a central hub.</p>
+				</div>
+				<div class="column" >
+					<h4 class="QuestionR" style="padding-top:10%">How?</h4>
+				</div>
+				
+			</div>
+			<br>
+			<div class="row">
+				<div class="column" >
+					<h4 class="QuestionL" style="padding-top:10%">Who?</h4>
+				</div>
+
+				<div class="column">
+					<p class="textInfoR" style="padding-top:10%">Law Inforcement, Firefighters, Medical Staff, Paramedics.</p>
+				</div>
+		</div>
+	</section><!--/#nino-story-->
+	
+	<!-- Footer
+    ================================================== -->
+    <footer id="footer">
+        <div class="container">
+			<div class="row" >
+				<div class="column">
+				<p>Developed by Mind8 during CityHack2020.</p>
+				</div>
+				<div class="column" >
+					<img src="images/ico/logo_58.png" style="height:58px;width:58px;margin-bottom:20px">
+				</div>
+			</div>
+		</div>
+		<div class="nino-copyright"><br>All Rights Reserved.</div>
+    </footer><!--/#footer-->
+	
+<!-- Scroll to top
+    ================================================== -->
+	<a href="#" id="nino-scrollToTop">Go to Top</a>
+	
+	<!-- javascript -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.97074.js"></script>
+	<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="js/unslider-min.js"></script>
+	<script type="text/javascript" src="js/template.js"></script>
+	
+</body>
+</html>

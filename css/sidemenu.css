@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #v-menu {
+    display: inline-block;
+
+    max-width: 75px;
+    position: absolute;
+    text-align: center;
+   
+  }
+  
+  #v-menu li {
+    
+    list-style: none;
+    padding: 10px;
+   
+  }
+  
+  #v-menu li a {
+      text-decoration: none;
+    color: #ddd;
+    
+  }
+  
+  #v-menu li a .text {
+    margin-left: -350%;
+    transition: .1s;
+    font-style: normal;
+  }
+  
+  #v-menu li a .ico {
+    display: block;
+    font-size: 48px;
+  }
+  
+  #v-menu:hover li a .text {
+    margin-left: 0;
+  }
+  
+  #v-menu li:hover {
+    background-color: #355C7D;
+    z-index:5;
+  }
+  
+  #v-menu li:hover * {
+    color: #F67280;
+    z-index:5;
+  }
+  
+  
+  
+  
